@@ -1,0 +1,18 @@
+@import '../variables/variables';
+
+.header {
+    background-color: $bg-header-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+
+    .header__container {
+        display: flex;
+        align-items: center;
+
+        .header__image {
+            padding: 5px;
+        }
+    }
+}
