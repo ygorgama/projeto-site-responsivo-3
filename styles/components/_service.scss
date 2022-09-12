@@ -1,0 +1,120 @@
+.service-body {
+    background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    background-attachment: fixed;
+
+    .header {
+        background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+        background-attachment: fixed;
+    }
+}
+
+.section-service {
+    color: $secondary-color;
+
+    .section-service__content {
+        padding: 0 25px;
+
+        .achievement:first-child {
+            color: $ligth;
+        }
+
+        .achievement:last-child {
+            color: $secondary-color;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .section-service__content--title {
+
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            margin: 20px 0 40px 0;
+        }
+
+        .section-service__content--subtitle {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            margin: 20px 0 40px 0;
+        }
+
+        .section-service__content--number {
+            color: $primary-color;
+            font-weight: 600;
+            font-size: 140px;
+            line-height: 167.07px;
+        }
+
+        .section-service__content--sucesss {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+        }
+    }
+
+    .container-cards {
+        margin: 40px 0;
+        width: 80vw;
+        padding: 0 10px;
+
+        .container-cards__card {
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 150px;
+            background-color: #fff;
+            border-radius: 32px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
+
+            .container-cards__card--box {
+                display: flex;
+                align-items: center;
+
+                .box-image {
+                    border-radius: 100%;
+                    margin-right: 20px;
+                }
+
+                .box-strategy {
+                    padding: 20px;
+                    background-color: #D1ECFD;
+
+                }
+
+                .box-branding {
+                    background-color: #908CFF;
+                }
+
+                .box-interactive {
+                    background-color: #FFC0A5;
+                }
+
+                .box-communicate {
+                    background-color: #FFADD0;
+                }
+            }
+        }
+
+
+    }
+
+    .section-service__box-image {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../../assets/circle\ bg.svg);
+        background-repeat: no-repeat;
+        background-position: center 4rem;
+        background-size: 90%;
+
+        .section-service__box-image--image {
+            width: 300px;
+        }
+    }
+}

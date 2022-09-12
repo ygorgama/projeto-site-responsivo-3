@@ -23,16 +23,6 @@
             justify-content: space-between;
             align-items: center;
 
-            .conteiner__links--link {
-                &:last-child {
-                    margin-left: 15px;
-                    text-align: center;
-                    padding: 15px;
-                    background-color: $primary-color;
-                    border-radius: 100%;
-                }
-            }
-
             .container__selection--select {
                 padding: 10px 40px;
                 background-color: $secondary-color;
@@ -74,8 +64,14 @@
         margin: 40px 0;
     }
 
-    .section-who-we-are__container--brand {
-        padding: 120px;
+    .container {
+        padding: 0 20px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .container__brand {
+        padding: 50px;
         border-radius: 50%;
         box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
         display: flex;
@@ -85,7 +81,7 @@
 
         span {
             font-weight: 600;
-            font-size: 140px;
+            font-size: 120px;
             line-height: 167.07px;
         }
 
@@ -95,5 +91,15 @@
             text-align: center;
             line-height: 24px;
         }
+    }
+}
+
+.conteiner__links--link {
+    &:last-child {
+        margin-left: 15px;
+        text-align: center;
+        padding: 15px;
+        background-color: $primary-color;
+        border-radius: 100%;
     }
 }

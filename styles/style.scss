@@ -1,7 +1,19 @@
 @import './components/header';
 @import './components/main';
 @import './components/who-we-are';
+@import './components/service';
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.localization {
+    color: $primary-color;
+
+    .localization__content {
+        &:last-child {
+            margin-left: 10px;
+
+        }
+    }
 }
