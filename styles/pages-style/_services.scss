@@ -1,0 +1,60 @@
+@import '../variables/variables';
+
+.services {
+    color: $secondary-color;
+
+    .localization.localization-primary {
+        color: $primary-color;
+        margin-bottom: 20px;
+
+    }
+
+    .container-links-setas {
+        margin: 30px 0 60px 0;
+    }
+
+    .localization-bottom {
+        color: $ligth-shader;
+        margin: 25px 0 40px 0;
+
+        .localization__content {
+            &:last-child {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .about__content--number {
+        font-size: 140px;
+        line-height: 167.07px;
+        font-weight: 600;
+        color: $primary-color;
+    }
+
+    .about__content--sucess {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .section__figure {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../../assets/circle\ bg.svg');
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .section__figure {
+        background-size: 19rem;
+
+        .section__figure--image {
+            width: 300px;
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+@import "../variables/variables";
+
+
+.hero {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.hero__content--information {
+    margin: 20px 0 35px 0;
+}
+
+.hero__figure {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 50px;
+}

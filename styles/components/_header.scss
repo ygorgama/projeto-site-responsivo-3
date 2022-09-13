@@ -1,18 +1,17 @@
-@import '../variables/variables';
+@import "../variables/variables";
 
 .header {
-    background-color: $bg-header-1;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
     align-items: center;
-    padding: 40px 20px;
 
-    .header__container {
+    .header__box {
         display: flex;
         align-items: center;
+    }
 
-        .header__image {
-            padding: 5px;
-        }
+    .header__item {
+        padding: 0.4rem;
     }
 }

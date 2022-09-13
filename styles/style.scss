@@ -1,19 +1,86 @@
+@import './variables/variables';
 @import './components/header';
-@import './components/main';
-@import './components/who-we-are';
-@import './components/service';
+@import 'pages-style/about';
+@import 'pages-style/hero';
+@import './pages-style/services';
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+.background-liner {
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    background-attachment: fixed;
+}
+
 .localization {
-    color: $primary-color;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
 
     .localization__content {
         &:last-child {
-            margin-left: 10px;
+            margin-left: 20px;
 
         }
     }
+}
+
+.container-content {
+    padding: 0 20px;
+}
+
+.container-links-setas__seta {
+    &:last-child {
+        margin-left: 15px;
+        padding: 15px;
+        background-color: $primary-color;
+        border-radius: 100%;
+    }
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    color: $bg-header-1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 0;
+    text-decoration: none;
+}
+
+.btn-cta {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: $bg-header-1;
+    border-radius: 8px;
+}
+
+.title-h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+
+}
+
+.title-h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.title-h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.information {
+    color: $ligth-shader;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
 }
