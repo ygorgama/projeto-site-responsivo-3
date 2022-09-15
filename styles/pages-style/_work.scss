@@ -1,0 +1,56 @@
+@import '../variables/variables';
+
+.work {
+    .work__content--information {
+        margin: 20px 0 30px 0;
+    }
+
+    .localization {
+        color: $primary-color;
+        margin-bottom: 15px;
+    }
+
+    .card__box {
+        margin-bottom: 20px;
+
+        &:not(:first-child) {
+            margin-top: 20px;
+        }
+    }
+
+    .card__information {
+        margin: 20px 0 50px 0;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    .card__link {
+        padding: 10px;
+        border: 2px solid $secondary-color;
+        border-radius: 100%;
+        text-align: center;
+    }
+
+    .work__conteiner {
+        margin: 30px 0;
+        text-align: center;
+
+        .work__conteiner--btn {
+            padding: 15px 100px;
+        }
+
+        @media screen and (min-width:360px) {
+            .work__conteiner--btn {
+                padding: 15px 120px;
+            }
+        }
+
+        @media screen and (min-width:400px) {
+            .work__conteiner--btn {
+                padding: 15px 140px;
+            }
+        }
+    }
+}

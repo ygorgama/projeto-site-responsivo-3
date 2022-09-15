@@ -1,0 +1,107 @@
+.footer {
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+
+    .contact {
+        box-sizing: border-box;
+        background-color: $primary-color;
+        text-align: center;
+        width: 85vw;
+        border-radius: 24px;
+
+        .contact__conteiner:first-child {
+            border: 1px solid #fff;
+
+            .contact__conteiner--image {
+                padding: 40px 0 30px 0;
+            }
+
+            .contact__conteiner--hello {
+                font-size: 14px;
+                line-height: 18px;
+                font-weight: 600;
+                margin-bottom: 40px;
+            }
+
+            .contact__conteiner--information {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 32px;
+                margin-bottom: 40px;
+            }
+        }
+
+        .contact__conteiner--talk {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            margin: 40px 25px 30px;
+        }
+
+        .contact__conteiner {
+            text-align: center;
+        }
+
+        .btn-cta {
+            padding: 15px;
+            display: block;
+            margin: 40px 60px;
+        }
+
+    }
+
+    .info {
+        text-align: center;
+        margin: 75px auto 0 auto;
+        color: #ADADAD;
+
+        .info_copyright {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 16px;
+            margin: 20px 0;
+
+        }
+
+        .info__conteiner--images {
+            padding: 0.3rem;
+        }
+
+        .info__information {
+            margin-top: 20px;
+            color: #ADADAD;
+            line-height: 26px;
+        }
+
+        .info__select {
+            background: #fff;
+            border: 1px solid #D8D8D8;
+            padding: 15px 100px;
+            border-radius: 8px;
+        }
+
+        .info__social {
+            margin: 30px 0;
+
+            .facebook {
+                background-color: $primary-color;
+            }
+
+            .info__social--figure {
+                padding: 10px;
+                border: 1px solid #D8D8D8;
+                border-radius: 100%;
+                text-align: center;
+
+                &:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

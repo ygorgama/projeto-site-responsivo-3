@@ -42,11 +42,12 @@
         display: flex;
         justify-content: center;
         background-color: #FFC7DF;
+        margin-bottom: 50px;
+        position: relative;
         background-image: url('../../assets/shape\ 3.svg');
         background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 10rem;
-        margin-bottom: 50px;
+        background-size: 11rem;
+        background-position: bottom right;
 
         @media screen and (max-width:350px) {
             .about__figure--image {

@@ -24,6 +24,68 @@
         }
     }
 
+    .services__cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+
+        .card {
+            padding: 60px 50px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 32px;
+
+            .card__box {
+                display: flex;
+                align-items: center;
+
+                .card__box--image {
+                    margin-right: 20px;
+                    padding: 20px;
+                    border-radius: 100%;
+                }
+
+                .card__box--communicate {
+                    background-color: #FFADD0;
+                }
+
+                .card__box--strategy {
+                    background-color: #D1ECFD;
+                }
+
+                .card__box--branding {
+                    background-color: #908CFF;
+                }
+
+                .card__box--interactive {
+                    background-color: #FFC0A5;
+                }
+            }
+        }
+
+        @media screen and (max-width:280px) {
+            .card {
+                padding: 60px 30px;
+
+            }
+        }
+
+        @media screen and (min-width:350px) {
+            .card {
+                padding: 60px 70px;
+
+            }
+        }
+
+        @media screen and (min-width:410px) {
+            .card {
+                padding: 60px 100px;
+            }
+        }
+    }
+
     .about__content--number {
         font-size: 140px;
         line-height: 167.07px;
