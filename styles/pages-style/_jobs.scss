@@ -49,6 +49,15 @@
             position: relative;
             border-radius: 28px 0 0 28px;
             left: 5px;
+            overflow: hidden;
+
+            .cards_card--figure {
+                position: relative;
+                right: -20px;
+                margin: 0;
+                background-color: $primary-color;
+                border-radius: 28px 0 0 28px;
+            }
         }
 
         @media screen and(min-width:350px) {
@@ -59,7 +68,11 @@
 
             .cards__card.unique__card {
                 width: 350px;
-                left: 10px;
+                left: 12.5px;
+
+                .cards_card--figure {
+                    right: -35px;
+                }
 
             }
 
@@ -74,6 +87,11 @@
             .cards__card.unique__card {
                 left: 16px;
                 width: 393px;
+
+
+                .cards_card--figure {
+                    right: -55px;
+                }
             }
         }
 

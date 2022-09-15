@@ -7,6 +7,10 @@
 @import './pages-style/cta';
 @import './pages-style/jobs';
 @import './components/footer';
+@import './pages-style/menu';
+@import './pages-style/bento';
+@import './pages-style/overview';
+@import './pages-style/number';
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -102,7 +106,6 @@ body {
         .card__box {
             height: 350px;
 
-            background-color: aqua;
             border-radius: 13px;
             display: flex;
             justify-content: center;
@@ -122,6 +125,30 @@ body {
             .card__box--figure {
                 width: 280px;
             }
+        }
+
+        .card__woman {
+            background: #FFBA79;
+        }
+
+        .card__main {
+            background: #E8BEFF;
+        }
+
+        .card__tablet {
+            background: #FFCE79;
+        }
+
+        .card__tablet2 {
+            background: #D1ECFD;
+        }
+
+        .card__man {
+            background: #FFBA79;
+        }
+
+        .card__tablet-esp {
+            background: #908CFF;
         }
     }
 

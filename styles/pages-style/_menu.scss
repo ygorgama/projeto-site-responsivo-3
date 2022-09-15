@@ -1,0 +1,44 @@
+@import '../variables/variables';
+
+.menu-body {
+    background-color: $secondary-color;
+}
+
+
+.menu {
+    margin: 60px 0 100px 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    a {
+        color: #595976;
+        text-decoration: none;
+    }
+
+    .menu__item {
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .fixed a {
+        color: #fff;
+    }
+}
+
+
+.social {
+    display: flex;
+    align-items: center;
+
+    .social__figure {
+        padding: 13px;
+        border: 1px solid #D8D8D8;
+        border-radius: 100%;
+
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+}
