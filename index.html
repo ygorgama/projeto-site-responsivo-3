@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="index-body">
+  <body class="hero-body">
     <header class="header">
       <div class="header__box">
         <span class="header__box--logo"
@@ -36,6 +36,23 @@
           alt="Menu navegação"
           class="header__item header__menu--image"
       /></a>
+      <nav class="header__nav">
+        <ul class="header__nav--list">
+          <li class="list__item">
+            <a href="about.html" class="list__item--link fixed">About</a>
+          </li>
+          <li class="list__item">
+            <a href="work.html" class="list__item--link">Work</a>
+          </li>
+          <li class="list__item">
+            <a href="services.html" class="list__item--link">Services</a>
+          </li>
+          <li class="list__item">
+            <a href="jobs.html" class="list__item--link">Jobs</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="page-404.html" class="header__btn">Contact Us</a>
     </header>
     <main class="main">
       <section class="hero">
@@ -52,6 +69,7 @@
           >
         </div>
         <div class="hero__figure">
+          <div class="bg-absolute"></div>
           <img
             src="./assets/hero graphic.svg"
             alt="Grafico hero"
