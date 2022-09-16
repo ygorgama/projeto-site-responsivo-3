@@ -131,12 +131,13 @@
   margin: 30px 0 60px 0;
 }
 .about .conteiner {
-  margin: 100px 0 80px 0;
+  margin: 70px 10px;
+  padding: 20px;
   text-align: center;
   box-sizing: border-box;
 }
 .about .conteiner .about__brand {
-  padding: 40px;
+  padding: 60px 50px;
   box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
   border-radius: 100%;
 }
@@ -245,16 +246,16 @@
   background-color: #232340;
 }
 .hero-body .about .bg-absolute {
-  top: 1360px;
+  top: 1340px;
 }
 @media screen and (min-width: 360px) {
   .hero-body .about .bg-absolute {
-    top: 1280px;
+    top: 1250px;
   }
 }
 @media screen and (min-width: 420px) {
   .hero-body .about .bg-absolute {
-    top: 1230px;
+    top: 1210px;
   }
 }
 

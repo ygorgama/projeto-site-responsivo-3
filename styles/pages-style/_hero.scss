@@ -26,18 +26,18 @@
         background-color: $secondary-color;
 
         .bg-absolute {
-            top: 1360px;
+            top: 1340px;
         }
 
         @media screen and (min-width:360px) {
             .bg-absolute {
-                top: 1280px;
+                top: 1250px;
             }
         }
 
         @media screen and (min-width:420px) {
             .bg-absolute {
-                top: 1230px;
+                top: 1210px;
             }
         }
     }
