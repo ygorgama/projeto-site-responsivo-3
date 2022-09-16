@@ -36,10 +36,27 @@
           alt="Menu navegação"
           class="header__item header__menu--image"
       /></a>
+      <nav class="header__nav">
+        <ul class="header__nav--list">
+          <li class="list__item">
+            <a href="about.html" class="list__item--link fixed">About</a>
+          </li>
+          <li class="list__item">
+            <a href="work.html" class="list__item--link">Work</a>
+          </li>
+          <li class="list__item">
+            <a href="services.html" class="list__item--link">Services</a>
+          </li>
+          <li class="list__item">
+            <a href="jobs.html" class="list__item--link">Jobs</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="page-404.html" class="header__btn">Contact Us</a>
     </header>
     <main class="main">
       <section class="services">
-        <div class="services__content container-content">
+        <div class="service__first services__content container-content">
           <div class="localization localization-primary">
             <span class="localization__content">03.</span>
             <span class="localization__content">What We Do</span>
@@ -76,7 +93,7 @@
                 <h4 class="card__box--name">Strategy</h4>
               </div>
             </div>
-            <div class="card">
+            <div class="card fixed">
               <div class="card__box">
                 <img
                   src="./assets/Image_Flower.svg"
@@ -108,23 +125,28 @@
             </div>
           </div>
         </div>
-        <div class="services__content container-content">
-          <div class="localization localization-bottom">
-            <span class="localization__content">03.</span>
-            <span class="localization__content">What We Do</span>
+        <span class="logo-absolute"
+          ><img src="./assets/logo symbol.svg" alt="logo"
+        /></span>
+        <div class="box__service">
+          <div class="services__content container-content">
+            <div class="localization localization-bottom">
+              <span class="localization__content">03.</span>
+              <span class="localization__content">What We Do</span>
+            </div>
+            <h2 class="about__content--title title-h3">
+              We Make Designs that Lead and Inpire.
+            </h2>
+            <p class="about__content--number">68</p>
+            <p class="about__content--sucess">😎 Successful Projects</p>
           </div>
-          <h2 class="about__content--title title-h3">
-            We Make Designs that Lead and Inpire.
-          </h2>
-          <p class="about__content--number">68</p>
-          <p class="about__content--sucess">😎 Successful Projects</p>
-        </div>
-        <div class="section__figure">
-          <img
-            src="./assets/phone.svg"
-            alt="Celular"
-            class="section__figure--image"
-          />
+          <div class="section__figure">
+            <img
+              src="./assets/phone.svg"
+              alt="Celular"
+              class="section__figure--image"
+            />
+          </div>
         </div>
       </section>
     </main>
@@ -136,8 +158,13 @@
             alt="Contato"
             class="contact__conteiner--image"
           />
+          <img
+            src="./assets/logo symbol footer desk.svg"
+            class="contact__conteiner--desktop"
+            alt="Logo"
+          />
           <p class="contact__conteiner--hello">👋 Say hello</p>
-          <h4 class="contact__conteiner--information">
+          <h4 class="contact__conteiner--information title-h4">
             A design team building a curated marketplace for UI designers.
           </h4>
         </div>
@@ -146,6 +173,24 @@
             Let’s talk about your next project
           </h3>
           <a href="page-404.html" class="btn-cta">Contact Us</a>
+        </div>
+        <div class="contact__conteiner desktop">
+          <img
+            src="./assets/SpeachBubble V2 (1).svg"
+            alt="Contato"
+            class="desktop__image"
+          />
+          <div class="contact__conteiner--box">
+            <h4 class="contact__conteiner--information">
+              Invest in your designs today!
+            </h4>
+            <a href="page-404.html" class="box__link">
+              <img
+                src="./assets/arrow-down.svg"
+                alt="Prosseguir"
+                class="box__link--image"
+            /></a>
+          </div>
         </div>
       </section>
       <section class="info">
@@ -172,30 +217,73 @@
           <option value="bento">Bento</option>
           <option value="404">404</option>
         </select>
+        <nav class="info__nav">
+          <ul class="info__nav--list">
+            <li class="list__item">
+              <a href="about.html" class="list__item--link fixed">About</a>
+            </li>
+            <li class="list__item">
+              <a href="work.html" class="list__item--link">Work</a>
+            </li>
+            <li class="list__item">
+              <a href="services.html" class="list__item--link">Services</a>
+            </li>
+            <li class="list__item">
+              <a href="jobs.html" class="list__item--link">Jobs</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="border-desktop"></div>
         <div class="info__social">
-          <span class="info__social--figure facebook">
-            <img
-              src="./assets/Path (1).svg"
-              alt="Facebook"
-              class="figure__image"
-            />
-          </span>
-          <span class="info__social--figure">
-            <img
-              src="./assets/Shape.svg"
-              alt="Facebook"
-              class="figure__image"
-            />
-          </span>
-          <span class="info__social--figure">
-            <img
-              src="./assets/Shape (1).svg"
-              alt="Facebook"
-              class="figure__image"
-            />
-          </span>
+          <div class="box-mobile">
+            <span class="info__social--figure facebook">
+              <img
+                src="./assets/Path (1).svg"
+                alt="Facebook"
+                class="figure__image"
+              />
+            </span>
+            <span class="info__social--figure">
+              <img
+                src="./assets/Shape.svg"
+                alt="Facebook"
+                class="figure__image"
+              />
+            </span>
+            <span class="info__social--figure">
+              <img
+                src="./assets/Shape (1).svg"
+                alt="Facebook"
+                class="figure__image"
+              />
+            </span>
+          </div>
+          <div class="box-desktop">
+            <span>Follow us</span>
+            <span class="info__social--figure facebook">
+              <img
+                src="./assets/facebook 2.svg"
+                alt="Facebook"
+                class="figure__image"
+              />
+            </span>
+            <span class="info__social--figure">
+              <img
+                src="./assets/Shape (3).svg"
+                alt="Youtube"
+                class="figure__image"
+              />
+            </span>
+            <span class="info__social--figure">
+              <img
+                src="./assets/Union.svg"
+                alt="Instagram"
+                class="figure__image"
+              />
+            </span>
+          </div>
+          <p class="info_copyright">© 2020, UI8 LLC.</p>
         </div>
-        <p class="info_copyright">© 2020, UI8 LLC.</p>
       </section>
     </footer>
   </body>
